@@ -28,7 +28,7 @@ tar -xvfz packmol-20.13.0.tar.gz
 o
 
 ```
-unzip -xvfz packmol-20.13.0.tar.gz
+unzip -xvfz packmol-20.13.0.zip
 ```
 
 3. Nos aseguramos de tener `gfortran` instalado:
@@ -45,7 +45,7 @@ cd packmol-20.13.0
 make
 ```
 
-### Anaconda
+### Instalación de MoSDef
 
 Para instalar las librerías de *MoSDeF* a través de Anaconda es necesario correr:
 
