@@ -4,6 +4,7 @@ channels:
   - conda-forge/label/hoomd_dev
   - bioconda
 dependencies:
+  - hoomd
   - constrainmol
   - ele
   - foyer
