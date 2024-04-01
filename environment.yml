@@ -7,7 +7,9 @@ dependencies:
   - hoomd
   - constrainmol
   - ele
+  - flowermd
   - foyer
+  - fresnel
   - freud
   - gmso>=0.11.1
   - gromacs
@@ -15,20 +17,21 @@ dependencies:
   - h5py
   - jupyter
   - jinja2
+  - ipympl>=0.9.3
   - lammps
   - matplotlib
   - mbuild
   - mdtraj
   - mosdef_cassandra
   - numpy
+  - nglview
   - openmm>=7.6
   - packmol>=18
   - pandas
   - panedr
   - parmed>=3.4.3
-  - pymbar=3.0.5
+  - pymbar
   - pytest
-  - python=3.10
   - rdkit
   - scipy=1.9.0
   - seaborn

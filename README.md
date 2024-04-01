@@ -2,14 +2,6 @@
 
 ## Requisitos
 
-Tener Anaconda intalado es recomendado.   
-
-```
-conda install -n base conda-libmamba-solver
-conda env create -f enviroment.yml --solver=libmamba
-conda activate tutorial_mosdef
-```
-
 ### packmol
 
 Este proceso solo aplica para Linux, para instalación en Windows vaya [aquí](https://m3g.github.io/packmol/download.shtml).
@@ -33,7 +25,7 @@ unzip -xvfz packmol-20.13.0.zip
 sudo apt install gfortran
 ```
 
-(En caso de no contar con un sistema basado en Debian sustituya con el administrador de paquetes correspondiente).
+(O con el administrador de paquetes del sitema)
 
 4. Entra al directorio de `packmol` y lo instalamos usando make:
 
@@ -43,12 +35,25 @@ cd packmol-20.13.0
 make
 ```
 
-## Instalación de MoSDef
+## Instalación de MoSDeF
 
-Para instalar las librerías de *MoSDeF* a través de Anaconda es necesario correr:
+
+Se pueden instalar los requisitos a través de Anaconda siguiendo:
 
 ```
-conda install mbuild foyer gmso
+git clone https://github.com/Pablo-Pomares/tutorial_mosdef
+cd tutorial_mosdef
+conda install -n base conda-libmamba-solver
+conda env create -f enviroment.yml --solver=libmamba
+conda activate tutorial_mosdef
 ```
 
-`mbuild`, `foyer` y `gmso` son los módulos de MoSDef.
+Se recomienda realizar la instalación con anticipación ya que puede tardar un poco.
+Una manera más rápida (opcional) es a través de `mamba` en miniforge:
+
+```
+git clone https://github.com/Pablo-Pomares/tutorial_mosdef
+cd tutorial_mosdef
+mamba env create -f enviroment.yml 
+mamba activate tutorial_mosdef
+```
