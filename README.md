@@ -45,7 +45,7 @@ make
 
 ## Instalación de MoSDeF
 
-Esta instalación es hecha con conda, por lo que es altamente recomendado que actualize antes de iniciar con la instación:
+Esta instalación es hecha con conda, por lo que es altamente recomendado que actualize antes de iniciar con la instalación:
 ```
 conda update --all
 ```
@@ -60,12 +60,3 @@ conda env create -f enviroment.yml --solver=libmamba
 conda activate tutorial_mosdef
 ```
 
-Se recomienda realizar la instalación con anticipación ya que puede tardar un poco.
-Una manera más rápida (opcional) es a través de `mamba` en miniforge:
-
-```
-git clone https://github.com/Pablo-Pomares/tutorial_mosdef
-cd tutorial_mosdef
-mamba env create -f enviroment.yml 
-mamba activate tutorial_mosdef
-```
