@@ -4,7 +4,7 @@
 
 ### packmol
 
-Este proceso solo aplica para Linux, para instalación en Windows vaya [aquí](https://m3g.github.io/packmol/download.shtml).
+Este proceso solo aplica para Linux.
 
 1. Cree un directorio de trabajo, con el nombre que guste, por ejemplo,
 ```
@@ -16,13 +16,13 @@ cd mosdef
 3. Se descomprimen usando:
 
 ```
-tar xvfz packmol-20.13.0.tar.gz
+tar xvfz packmol-20.14.4.tar.gz
 ```
 
 o
 
 ```
-unzip -xvfz packmol-20.13.0.zip
+unzip packmol-20.14.4.zip
 ```
 
 4. Nos aseguramos de tener `gfortran` instalado:
@@ -36,7 +36,7 @@ sudo apt install gfortran
 5. Entra al directorio de `packmol` y lo instalamos usando make:
 
 ```
-cd packmol-20.13.0
+cd packmol-20.14.4
 ./configure 
 make
 ```
@@ -45,8 +45,12 @@ make
 
 ## Instalación de MoSDeF
 
+Esta instalación es hecha con conda, por lo que es altamente recomendado que actualize antes de iniciar con la instación:
+```
+conda update --all
+```
 
-Se pueden instalar los requisitos a través de Anaconda siguiendo:
+Se pueden instalar los demás requisitos a través de:
 
 ```
 git clone https://github.com/Pablo-Pomares/tutorial_mosdef
