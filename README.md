@@ -1,5 +1,11 @@
 # Guía de Instalación
 
+Antes de empezar, es necesario actualizar su sistema,
+
+```
+sudo apt update && sudo apt upgrade
+```
+
 ## Requisitos
 
 ### packmol
@@ -60,3 +66,6 @@ conda env create -f enviroment.yml --solver=libmamba
 conda activate tutorial_mosdef
 ```
 
+---
+
+Cualquier duda puede ser dirigida al correo: [pablo.pomaresv@alumno.buap.mx](pablo.pomaresv@alumno.buap.mx).
