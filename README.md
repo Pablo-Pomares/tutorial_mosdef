@@ -68,4 +68,4 @@ conda activate tutorial_mosdef
 
 ---
 
-Cualquier duda puede ser dirigida al correo: [pablo.pomaresv@alumno.buap.mx](pablo.pomaresv@alumno.buap.mx).
+Cualquier duda puede ser dirigida al correo: <pablo.pomaresv@alumno.buap.mx>.

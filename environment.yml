@@ -40,3 +40,4 @@ dependencies:
   - signac-flow=0.25.1
   - unyt
   - py3dmol
+  - pyomo=6.7.1
