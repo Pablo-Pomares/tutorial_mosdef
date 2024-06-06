@@ -2,6 +2,9 @@ constraints         = none
 integrator          = steep
 nsteps              = 1000
 dt                  = 0.001
+energygrps          = SOL GPH
+freezegrps          = GPH
+freezedim           = Y Y Y
 
 nstxout             = 0
 nstvout             = 0

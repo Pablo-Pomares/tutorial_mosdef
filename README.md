@@ -18,7 +18,7 @@ mkdir mosdef
 cd mosdef
 ```
 
-2. Se descargan los archivos comprimidos [aquí](https://github.com/m3g/packmol/releases), ya sea en formato `.tar.gz` or en `.zip`.
+2. Se descargan los archivos comprimidos [aquí](https://github.com/m3g/packmol/releases) (sugerimos la v20.14.4), ya sea en formato `.tar.gz` or en `.zip`.
 3. Se descomprimen usando:
 
 ```
