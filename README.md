@@ -62,7 +62,7 @@ Se pueden instalar los demás requisitos a través de:
 git clone https://github.com/Pablo-Pomares/tutorial_mosdef
 cd tutorial_mosdef
 conda install -n base conda-libmamba-solver
-conda env create -f enviroment.yml --solver=libmamba
+conda env create -f environment.yml --solver=libmamba
 conda activate tutorial_mosdef
 ```
 
